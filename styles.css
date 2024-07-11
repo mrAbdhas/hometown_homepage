@@ -9,10 +9,47 @@ DARK BLUE: #1D3557
 */
 
 body {
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
+    font-family: arial;
+    width: 720px;
+
 }
 
 img {
     width: 100px;
+}
+
+#hero {
+    background-image: url(images/torshov.jpg);
+    background-size: cover;
+    height: 343px;
+}
+
+#hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    background: #1D3557;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
+    margin: 119px auto 0;
+    padding: 3px 12px ;
+    border-radius: 10px;
+}
+
+#cta-message {
+    background: #457B9D;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 11px auto 125px;
+    padding: 5px 28px ;
+    border-radius: 10px;
 }
