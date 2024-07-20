@@ -104,3 +104,46 @@ img {
  
 
 }
+
+#guide {
+    height: 394px;
+    background-color: #FFFFFF;
+}
+
+#card {
+    background-color: #A8DADC;
+    color: #1D3557;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 294px;
+    margin: 50px auto;
+    border-radius: 10px;
+    border-bottom: 6px solid #1D3557;
+}
+
+#guide-img {
+    width: 180px;
+    height: 248.67px;
+    margin: 23px 7px 23px 13px;
+    border-radius: 10px;
+}
+
+#guide-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 49px 4px 14px 0 ;
+}
+
+#guide-description {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0 11px 26px 7px;
+}
+
+#guide-name {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 26px 13px 84px 5px;
+}
